@@ -1,0 +1,19 @@
+1---> in jacvascript in brower like during golive we share code among different files by 
+writing all script tags in html and browser loads js files from there but in node js 
+we use require to import modules
+
+
+2---->We write window.awesomeFunction in the browser because:
+
+window is the global object in browsers.
+
+Attaching to window makes a function globally accessible across different scripts on a page.
+
+In Node.js, we don’t use window because:
+
+window doesn't exist in Node.
+
+The global object in Node is called global, not window.
+
+But even then, in Node, we usually use modules, not global variables.
+

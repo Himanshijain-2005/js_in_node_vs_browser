@@ -1,0 +1,4 @@
+fs is module already present in node js 
+we import it 
+in writefile function we need to __dirname to make 
+file in same directory

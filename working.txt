@@ -1,0 +1,10 @@
+Feature
+Browser                                      	Node.js
+File loading	<script src="...">	            require() or import
+Scope	Shared (unless using type="module")   	Isolated per file/module
+Module system	Not built-in (classic JS)	    Built-in module system
+Environment	Web (HTML, DOM)	                    Server (File system, network)
+
+in jacvascript in brower like during golive we share code among different files by 
+writing all script tags in html and browser loads js files from there but in node js 
+we use require to import modules

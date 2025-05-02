@@ -1,0 +1,1 @@
+when we are running javascript in computer in terminal we need to import and export by modules 

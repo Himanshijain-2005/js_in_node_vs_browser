@@ -1,0 +1,20 @@
+intially javascript was made for browser
+like for chrome browser Blink and v8
+Blink html css ko render krne ke liye layout engine hai
+v8 browser me javascript run krne ke ke liye js engine hai
+output will be shown in console
+till now everything is happening in browser
+then someone take v8 code from chrome and integrate in terminal
+so we can run js in terminal and output will come in terminal
+
+browser == computer
+console == terminal
+dom yes == dom not
+bom     == global
+all the functions in bom like settimeout will come in global
+
+IN browser there is security that js cant access computer file and all these things were done by nodejs in computer
+
+package manager of nodejs-->npm,yarn
+
+file read write operation works in nodejs not browser
